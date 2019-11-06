@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4243942354556142725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b2f34fbd903c64eb62da8cf12ef0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: Restores to Max Health
+  HealthAmount: 20
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328cd29feea7c9e448f98552a0eebdd2, type: 3}
+  m_Name: YoooItem
+  m_EditorClassIdentifier: 
+  ItemName: Super Potion
+  ItemSprite: {fileID: 0}
+  Description: Gives you all your health back!
+  WorldObjectPrefab: {fileID: -927199367670048503, guid: 6d7b80b6b4012934380aac95736c8b25,
+    type: 3}
+  UsageEffects:
+  - {fileID: -4243942354556142725}
